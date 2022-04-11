@@ -1,0 +1,26 @@
+:root {
+    --white-color: #FFF;
+    --black-color: #000;
+    --text-color: #555;
+    --primary-color: #F9CE06;
+}
+
+@font-face { 
+    src: url('../assets/font/Raleway-VariableFont_wght.ttf');
+    font-family: Raleway;
+}
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+#root {
+    overflow: hidden;
+}
